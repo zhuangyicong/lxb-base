@@ -1,0 +1,20 @@
+{
+    "name": "lxb-base",
+    "version": "1.0.0",
+    "description": "乐享宝-前端vue框架基类",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "lxb",
+        "utils"
+    ],
+    "author": "zhuangyicong",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "lodash": "^4.17.10",
+        "qs": "^6.5.2"
+    }
+}
