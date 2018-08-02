@@ -1,11 +1,11 @@
-import http from './lib/plugins/ajax/index.js'
-import device from './lib/plugins/device/index.js'
-import cookie from './lib/plugins/utils/cookie.js'
-import localStorage from './lib/plugins/utils/localStorage.js'
-import sessionStorage from './lib/plugins/utils/sessionStorage.js'
-import upload from './lib/plugins/utils/upload.js'
-import compute from './lib/plugins/utils/compute.js'
-import verify from './lib/plugins/verify/index.js'
+import http from './lib/ajax/index.js'
+import device from './lib/device/index.js'
+import cookie from './lib/utils/cookie.js'
+import localStorage from './lib/utils/localStorage.js'
+import sessionStorage from './lib/utils/sessionStorage.js'
+import upload from './lib/utils/upload.js'
+import compute from './lib/utils/compute.js'
+import verify from './lib/verify/index.js'
 
 
 let LxbBase = {
