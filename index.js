@@ -7,8 +7,7 @@ import upload from './lib/utils/upload.js'
 import compute from './lib/utils/compute.js'
 import verify from './lib/verify/index.js'
 
-
-let LxbBase = {
+export default {
 	install: function(Vue) {
         // axios 请求封装
         Vue.prototype.$ajax = http;
@@ -36,5 +35,3 @@ let LxbBase = {
         Vue.verify = verify;
 	}
 };
-
-module.exports = LxbBase;
