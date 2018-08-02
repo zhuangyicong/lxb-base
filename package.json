@@ -1,6 +1,6 @@
 {
     "name": "lxb-base",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "前端vue框架基类",
     "main": "index.js",
     "scripts": {
